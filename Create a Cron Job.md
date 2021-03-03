@@ -8,9 +8,9 @@ Nautilus system admins team has prepared some scripts to automate few day to day
 
 
 ```shssh tony@stapp01
-yum install cronie```
-`systemctl start crond.service`
-`systemctl status crond.service`
+yum install cronie
+systemctl start crond.service
+systemctl status crond.service
 crontab -u root -l
 crontab -e
 */5 * * * * echo hello > /tmp/cron_text
@@ -42,4 +42,4 @@ crontab -u root -l
 watch -n 5 ll /tmp
 watch -n 5 ls -l /tmp
 ll /tmp/
-
+```
