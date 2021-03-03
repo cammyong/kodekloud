@@ -7,7 +7,8 @@ Nautilus system admins team has prepared some scripts to automate few day to day
 
 
 
-```shssh tony@stapp01
+```sh
+ssh tony@stapp01
 yum install cronie
 systemctl start crond.service
 systemctl status crond.service
