@@ -7,10 +7,10 @@ Nautilus system admins team has prepared some scripts to automate few day to day
 
 
 
-ssh tony@stapp01
-yum install cronie 
-systemctl start crond.service
-systemctl status crond.service
+```shssh tony@stapp01
+yum install cronie```
+`systemctl start crond.service`
+`systemctl status crond.service`
 crontab -u root -l
 crontab -e
 */5 * * * * echo hello > /tmp/cron_text
