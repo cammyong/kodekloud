@@ -1,11 +1,9 @@
-Nautilus system admins team has prepared some scripts to automate few day to day tasks. They want them to be deployed on all app servers in Stratos DC and need to set some scheduled run for all of them. Before that they need to test similar functionality with a sample cron job. So perform the steps given below:
 
+#
 
 1. Install cronie package on all Nautilus app servers and start crond service.
 
-2. Add a cron */5 * * * * echo hello > /tmp/cron_text for root user.
-
-
+2. Add a cron */5* ** * echo hello > /tmp/cron_text for root user.
 
 ```sh
 ssh tony@stapp01
